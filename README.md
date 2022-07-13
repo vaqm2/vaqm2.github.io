@@ -20,6 +20,10 @@ I have previously worked at [The Genome Institute at Washington University in St
 ## LINKS
 
 [Publications on Google Scholar](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en)
+
+
 [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192)
+
+
 [Twitter](https://twitter.com/vivek12252)
 
