@@ -10,14 +10,17 @@ fortunate to receive a
 to estimate the societal cost conferred by a genetic liability towards mental
 disease and the benefits of an earlier diagnosis and intervention. 
 
+
 During my PhD obtained through the University of Copenhagen, Department of 
 Biostatistics and Bioinformatics, I worked on a wide variety of projects, including 
 [empirically estimating the best data integration protocols in biobanks](https://www.biorxiv.org/content/10.1101/2022.06.27.497703v1) and using
 complex trait analyses methods to lend credence to the social science theory that 
  [educational attainment and intelligence test performance are predictive of voter turnout](https://www.nature.com/articles/s41562-020-00952-2).
- 
+
+
 I have previously worked at [The Genome Institute at Washington University in St. Louis](https://www.genome.wustl.edu/), [The Human Genome Sequencing Center at Baylor College of Medicine](https://www.hgsc.bcm.edu/) and obtained my Masters Degree in Electrical Engineering from the [Missouri University of Science and Technology](https://www.mst.edu/) but my home is in Copenhagen, Denmark.
 {text-align: justify}</style>
+
 
 ## LINKS
 
