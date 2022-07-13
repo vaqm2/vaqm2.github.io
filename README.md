@@ -1,5 +1,3 @@
-## ABOUT ME
-
 I'm Vivek Appadurai, a post-doctoral researcher at 
 [The Institute of Biological Psychiatry](https://biopsyk.dk/) in Roskilde, Denmark. 
 My research focuses on statistical genetics, bioinformatics and complex diseases, 
@@ -20,15 +18,5 @@ complex trait analyses methods to lend credence to the social science theory tha
 I have previously worked at [The Genome Institute at Washington University in St. Louis](https://www.genome.wustl.edu/), [The Human Genome Sequencing Center at Baylor College of Medicine](https://www.hgsc.bcm.edu/) and obtained my Masters Degree in Electrical Engineering from the [Missouri University of Science and Technology](https://www.mst.edu/) but my home is in Copenhagen, Denmark.
 
 
-## LINKS
-
-[CV](/assets/pdf/VivekAppadurai.pdf)
-
-[Publications on Google Scholar](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en)
-
-
-[Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192)
-
-
-[Twitter](https://twitter.com/vivek12252)
+[CV](/assets/pdf/VivekAppadurai.pdf) | [Publications on Google Scholar](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en) | [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192) | [Twitter](https://twitter.com/vivek12252)
 
