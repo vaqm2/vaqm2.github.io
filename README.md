@@ -7,8 +7,7 @@ which I'm currently applying towards psychiatry and mental disorders. I have bee
 fortunate to receive a 
 [post-doctoral research grant from the Lundbeck Foundation](https://lundbeckfonden.com/en/genetic-risk-and-the-societal-cost-of-mental-disorders)
 to estimate the societal cost conferred by a genetic liability towards mental
-disease, using genetic risk as an instrumental variable and also the benefits 
-of an earlier diagnosis and intervention. 
+disease and the benefits of an earlier diagnosis and intervention. 
 
 During my PhD obtained through the University of Copenhagen, Department of 
 Biostatistics and Bioinformatics, I worked on a wide variety of projects, including 
