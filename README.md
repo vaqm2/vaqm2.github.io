@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Personal Webpage of Vivek Appadurai
 
-You can use the [editor on GitHub](https://github.com/vaqm2/vaqm2.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I'm Vivek Appadurai, a post-doctoral researcher at 
+[The Institute of Biological Psychiatry](https://biopsyk.dk/) in Roskilde, Denmark. 
+My research focuses on statistical genetics, bioinformatics and complex diseases, 
+which I'm currently applying towards psychiatry and mental disorders. I have been 
+fortunate to receive a 
+[post-doctoral research grant from the Lundbeck Foundation](https://lundbeckfonden.com/en/genetic-risk-and-the-societal-cost-of-mental-disorders)
+to estimate the societal cost conferred by a genetic liability towards mental
+disease, using genetic risk as an instrumental variable and also the benefits 
+of an earlier diagnosis and intervention. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+During my PhD obtained through the University of Copenhagen, Department of 
+Biostatistics and Bioinformatics, I worked on a wide variety of projects, including 
+[empirically estimating the best data integration protocols in biobanks](https://www.biorxiv.org/content/10.1101/2022.06.27.497703v1) and using
+complex trait analyses methods to lend credence to the social science theory that 
+ [educational attainment and intelligence test performance are predictive of voter turnout](https://www.nature.com/articles/s41562-020-00952-2).
+ 
+I have previously worked at [The Genome Institute at Washington University in St. Louis](https://www.genome.wustl.edu/), [The Human Genome Sequencing Center at Baylor College of Medicine](https://www.hgsc.bcm.edu/) and obtained my Masters Degree in Electrical Engineering from the [Missouri University of Science and Technology](https://www.mst.edu/) but my home is in Copenhagen, Denmark.
 
-### Markdown
+## LINKS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Publications on Google Scholar](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en)
+[Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192)
+[Twitter](https://twitter.com/vivek12252)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vaqm2/vaqm2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
