@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 I'm Vivek Appadurai, a post-doctoral researcher at 
 [The Institute of Biological Psychiatry](https://biopsyk.dk/) in Roskilde, Denmark. 
 My research focuses on statistical genetics, bioinformatics and complex diseases, 
