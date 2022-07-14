@@ -2,6 +2,9 @@
 layout: default
 ---
 
+[CV](/assets/pdf/VivekAppadurai.pdf) | [Publications](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en) | [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192) | [Twitter](https://twitter.com/vivek12252)
+
+
 I'm Vivek Appadurai, a post-doctoral researcher at 
 [The Institute of Biological Psychiatry](https://biopsyk.dk/) in Roskilde, Denmark. 
 My research focuses on statistical genetics, bioinformatics and complex diseases, 
@@ -19,8 +22,4 @@ complex trait analyses methods to lend credence to the social science theory tha
  [educational attainment and intelligence test performance are predictive of voter turnout](https://www.nature.com/articles/s41562-020-00952-2).
 
 
-I have previously worked at [The Genome Institute at Washington University in St. Louis](https://www.genome.wustl.edu/), [The Human Genome Sequencing Center at Baylor College of Medicine](https://www.hgsc.bcm.edu/) and obtained my Masters Degree in Electrical Engineering from the [Missouri University of Science and Technology](https://www.mst.edu/) but my home is in Copenhagen, Denmark.
-
-
-[CV](/assets/pdf/VivekAppadurai.pdf) | [Publications on Google Scholar](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en) | [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192) | [Twitter](https://twitter.com/vivek12252)
-
+I have previously worked at [The Genome Institute at Washington University in St. Louis](https://www.genome.wustl.edu/), [The Human Genome Sequencing Center at Baylor College of Medicine](https://www.hgsc.bcm.edu/) and obtained my Masters Degree in Electrical Engineering from the [Missouri University of Science and Technology](https://www.mst.edu/). My home is in beautiful Copenhagen, Denmark.
