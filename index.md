@@ -2,7 +2,8 @@
 layout: default
 ---
 
-[CV](/assets/pdf/VivekAppadurai.pdf) | [Publications](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en) | [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192) | [Twitter](https://twitter.com/vivek12252)
+[CV](/assets/pdf/VivekAppadurai.pdf) | [Publications](https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en) | [Linkedin](https://dk.linkedin.com/in/vivek-appadurai-54a622192) | 
+[Twitter](https://twitter.com/vivek12252)
 
 
 I'm a post-doctoral researcher at [The Institute of Biological Psychiatry](https://biopsyk.dk/) 
@@ -13,9 +14,9 @@ to estimate the societal cost conferred by individuals' genetic liability toward
 disease and potential benefits of earlier diagnosis and intervention.
 
 
-I received my PhD from the University of Copenhagen, [Department of Biostatistics 
-and Bioinformatics](https://phd-biostatistics.ku.dk/), during which, 
-I collaborated very broadly with political scientists, clinicians, 
+I received my PhD from the University of Copenhagen, 
+[Department of Biostatistics and Bioinformatics](https://phd-biostatistics.ku.dk/), 
+during which, I collaborated very broadly with political scientists, clinicians, 
 epidemiologists and other bioinformaticians brought together through 
 the [iPSYCH](https://ipsych.dk/en/about-ipsych) consortium. A recent  [pre-print](https://www.biorxiv.org/content/10.1101/2022.06.27.497703v1), 
 where we empirically estimated the best data integration protocols in biobanks 
