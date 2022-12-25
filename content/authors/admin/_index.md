@@ -36,7 +36,7 @@ social:
   icon_pack: ai
   link: uploads/resume.pdf
 status:
-  icon: ☕️
+  icon: 🦉
 superuser: yes
 bio: Researcher in statistical genetics and bioinformatics.
 editor_options:
