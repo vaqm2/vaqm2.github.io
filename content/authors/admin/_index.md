@@ -1,56 +1,63 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
-first_name: Alice
-highlight_name: true
+title: "VIVEK APPADURAI"
+email: appadurai.vivek@gmail.com
+first_name: VIVEK
+highlight_name: yes
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Statistical Genetics
+- Bioinformatics
+- Next Generation Sequencing
+- Complex Trait Analysis
+last_name: APPADURAI
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Institute of Biological Psychiatry
+  url: https://biopsyk.dk/
+role: Senior Postdoctoral Researcher
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
-    header: true
+    header: yes
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
+  link: https://twitter.com/vivek12252
+- icon: "graduation-cap"
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/vaqm2
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: "https://dk.linkedin.com/in/vivek-appadurai-54a622192"
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
 status:
   icon: ☕️
-superuser: true
-title: Alice Wu 吳恩達
+superuser: yes
+bio: Researcher in statistical genetics and bioinformatics.
+editor_options:
+  markdown:
+    wrap: 72
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a Senior Postdoctoral Researcher at the Institute of Biological
+Psychiatry in Roskilde Denmark. I'm currently funded by a 2021 Lundbeck
+Foundation postdoctoral grant to work on an exciting project, where I aim to 
+estimate the societal costs incurred due to a baseline inherited genetic risk 
+for mental disorders and other genetically correlated health and behavioral
+traits. 
+
+My broader research portfolio includes developing the genetic data infrastructure
+for biobanks, while empirically evaluating the best practices to aggregate data 
+from diverse genotyping and sequencing platforms, building and using complex 
+trait analysis methods, pipelines to understand the genetic basis of polygenic
+traits with a particular focus on mental disorders, human behavior.
+
+My hobbies include going for long runs around the lakes of my beautiful home, 
+Copenhagen, Denmark.
 {style="text-align: justify;"}
+
