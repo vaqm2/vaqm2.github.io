@@ -4,6 +4,8 @@ date: 2025-08-10T12:00:00+02:00
 draft: false
 ---
 
+<a href="/VivekAppaduraiCV.pdf" target="_blank" rel="noopener">Download CV</a>
+
 ## Professional Summary
 
 I'm a bioinformatics professional with over 12 years of experience in pharmaceutical research, clinical science and academic settings, specializing in the development, modernization, and support of scientific software solutions and informatics processes. I possess proven expertise in Python, SQL, automating workflows, using high performance, cloud computing platforms, and contributing to AI/ML-enabled drug discovery initiatives. I'm adept at bridging scientific research needs with technical execution, driving data automation, and optimizing underlying databases. In addition, I have demonstrated strong problem-solving, collaboration and communication skills, learning agility, along with a commitment to delivering user-friendly, research-centric solutions within dynamic software ecosystems.

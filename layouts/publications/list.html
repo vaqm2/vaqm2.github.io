@@ -1,23 +1,21 @@
 {{ define "main" }}
-  <main class="pa4 pa0-ns bg-white">
-    <div class="mw7 center">
-      <h1 class="f2 f1-l fw2 ttu tracked-l">{{ .Title }}</h1>
-      <div class="cf">
+  <main class="post">
+    <article>
+      <h2 class="post-title">{{ .Title }}</h2>
+      <div class="post-content">
         {{ .Content }}
         <ul class="list pl0 mt0 measure-wide">
           {{ range index .Site.Data.publications "Select Publications" }}
-          <li class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-            <img class="w3 h3 br-100" src="{{ .Thumbnail }}" alt="{{ .Title }}">
-            <div class="pl3 flex-auto">
-              <span class="f6 db black-70">{{ .Journal }}, {{ .Year }}</span>
-              <a href="{{ .Link }}" class="f3 db link dark-blue hover-blue">{{ .Title }}</a>
-              <span class="f6 db black-70">{{ .Authors | safeHTML }}</span>
-              <p class="f6 lh-copy measure mt2">{{ .Summary }}</p>
-            </div>
+          <li class="mb4 pb3 bb b--black-10">
+            <h3 class="f4 mb1">{{ .Title }}</h3>
+            <p class="f6 mb1">{{ .Journal }}, {{ .Year }}</p>
+            <p class="f6 mb2">{{ .Authors | safeHTML }}</p>
+            <p class="f5 lh-copy">{{ .Summary }}</p>
+            <a href="{{ .Link }}" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" style="text-decoration: none;" target="_blank" rel="noopener">Read More</a>
           </li>
           {{ end }}
         </ul>
       </div>
-    </div>
+    </article>
   </main>
 {{ end }}

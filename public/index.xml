@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Vivek Appadurai</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Vivek Appadurai</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Aug 2025 12:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Sun, 10 Aug 2025 12:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/VivekAppaduraiCV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download CV&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;professional-summary&#34;&gt;Professional Summary&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a bioinformatics professional with over 12 years of experience in pharmaceutical research, clinical science and academic settings, specializing in the development, modernization, and support of scientific software solutions and informatics processes. I possess proven expertise in Python, SQL, automating workflows, using high performance, cloud computing platforms, and contributing to AI/ML-enabled drug discovery initiatives. I&amp;rsquo;m adept at bridging scientific research needs with technical execution, driving data automation, and optimizing underlying databases. In addition, I have demonstrated strong problem-solving, collaboration and communication skills, learning agility, along with a commitment to delivering user-friendly, research-centric solutions within dynamic software ecosystems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

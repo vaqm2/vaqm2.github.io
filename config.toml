@@ -1,23 +1,45 @@
 baseURL = 'https://vaqm2.github.io/'
 languageCode = 'en-us'
 title = 'Vivek Appadurai'
-theme = 'ananke'
+theme = 'hello-friend-ng'
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 [params]
-  # Ananke theme specific parameters
-  # You can find more options in the theme's documentation
-  # https://github.com/theNewDynamic/gohugo-theme-ananke
+  homeSubtitle = "Bioinformatician | Software Developer | Data Tinkerer"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/vaqm2"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/vivek-appadurai-54a622192/"
+
+  [[params.social]]
+    name = "googlescholar"
+    url  = "https://scholar.google.com/citations?user=sUD1UocAAAAJ&hl=en&oi=ao"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 10
   [[menu.main]]
-    name = "Resume"
-    url = "/resume/"
-    weight = 20
+    identifier = "resume"
+    name       = "Resume"
+    url        = "/resume/"
+    weight     = 20
   [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 30
+    identifier = "publications"
+    name       = "Publications"
+    url        = "/publications/"
+    weight     = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
