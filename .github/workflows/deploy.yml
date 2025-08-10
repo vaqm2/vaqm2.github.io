@@ -27,5 +27,4 @@ jobs:
         with:
           branch: gh-pages
           folder: .
-          root: .
           token: ${{ secrets.GITHUB_TOKEN }}
