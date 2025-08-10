@@ -16,10 +16,8 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git remote set-url origin https://git:${GH_TOKEN}@github.com/${{ github.repository }}
-          git config --global user.name '${{ github.actor }}'
-          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
-          npm run deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: out
+          ssh-key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}

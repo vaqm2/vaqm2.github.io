@@ -20,7 +20,7 @@ export default function Resume() {
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 dark:text-white">Professional Summary</h2>
             <p className="text-gray-700 dark:text-gray-300">
-              I'm a bioinformatics professional with over 12 years of experience in pharmaceutical research, clinical science and academic settings, specializing in the development, modernization, and support of scientific software solutions and informatics processes. I possess proven expertise in Python, SQL, automating workflows, using high performance, cloud computing platforms, and contributing to AI/ML-enabled drug discovery initiatives. I'm adept at bridging scientific research needs with technical execution, driving data automation, and optimizing underlying databases. In addition, I have demonstrated strong problem-solving, collaboration and communication skills, learning agility, along with a commitment to delivering user-friendly, research-centric solutions within dynamic software ecosystems.
+              I&apos;m a bioinformatics professional with over 12 years of experience in pharmaceutical research, clinical science and academic settings, specializing in the development, modernization, and support of scientific software solutions and informatics processes. I possess proven expertise in Python, SQL, automating workflows, using high performance, cloud computing platforms, and contributing to AI/ML-enabled drug discovery initiatives. I&apos;m adept at bridging scientific research needs with technical execution, driving data automation, and optimizing underlying databases. In addition, I have demonstrated strong problem-solving, collaboration and communication skills, learning agility, along with a commitment to delivering user-friendly, research-centric solutions within dynamic software ecosystems.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Resume() {
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 dark:text-white">Extracurricular</h2>
             <p className="text-gray-700 dark:text-gray-300">
-              I'm an avid runner (PRs 10k: 46.01, 5k: 22:30) and I enjoy reading neo-western, classical American, Russian literature when I'm not spending time with my soon to be one-year old daughter. Prior to becoming a dad, I volunteered with the coding pirates branch in Østerbro, teaching programming skills in Python and Javascript to teenagers.
+                            I&apos;m an avid runner (PRs 10k: 46.01, 5k: 22:30) and I enjoy reading neo-western, classical American, Russian literature when I&apos;m not spending time with my soon to be one-year old daughter. Prior to becoming a dad, I volunteered with the coding pirates branch in Østerbro, teaching programming skills in Python and Javascript to teenagers.
             </p>
           </div>
         </div>
