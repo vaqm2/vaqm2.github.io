@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <main class="pa4 pa0-ns bg-white">
+    <div class="mw7 center">
+      <h1 class="f2 f1-l fw2 ttu tracked-l">{{ .Title }}</h1>
+      <div class="cf">
+        {{ .Content }}
+        <ul class="list pl0 mt0 measure-wide">
+          {{ range .Site.Data.publications."Select Publications" }}
+          <li class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img class="w3 h3 br-100" src="{{ .Thumbnail }}" alt="{{ .Title }}">
+            <div class="pl3 flex-auto">
+              <span class="f6 db black-70">{{ .Journal }}, {{ .Year }}</span>
+              <a href="{{ .Link }}" class="f3 db link dark-blue hover-blue">{{ .Title }}</a>
+              <span class="f6 db black-70">{{ .Authors | safeHTML }}</span>
+              <p class="f6 lh-copy measure mt2">{{ .Summary }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </main>
+{{ end }}

@@ -1,37 +1,31 @@
-name: Build and Deploy
+name: Deploy Hugo site to GitHub Pages
+
 on:
   push:
     branches:
       - main
-permissions:
-  contents: write
+
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
         with:
-          node-version: '18'
+          submodules: true  # Fetch Hugo themes (true by default)
+          fetch-depth: 0    # Fetch all history for .GitInfo and lastmod
 
-      - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true # Uncomment if you use SASS/SCSS
 
-      - name: Deploy 🚀
-        env:
-          # Set GIT_SSH_COMMAND to use the SSH key from secrets
-          GIT_SSH_COMMAND: "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-        run: |
-          # Create the .ssh directory and add the private key
-          mkdir -p ~/.ssh
-          echo "${{ secrets.GH_PAGES_DEPLOY_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+      - name: Build Hugo site
+        run: hugo --minify
 
-          git config --global user.name 'github-actions-bot'
-          git config --global user.email 'support+actions@github.com'
-          npx gh-pages -d build -r git@github.com:${{ github.repository }}.git
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages

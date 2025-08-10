@@ -1,0 +1,23 @@
+baseURL = 'https://vaqm2.github.io/'
+languageCode = 'en-us'
+title = 'Vivek Appadurai'
+theme = 'ananke'
+
+[params]
+  # Ananke theme specific parameters
+  # You can find more options in the theme's documentation
+  # https://github.com/theNewDynamic/gohugo-theme-ananke
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 20
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
