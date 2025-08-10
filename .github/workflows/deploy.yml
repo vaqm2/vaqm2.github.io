@@ -1,13 +1,10 @@
 name: Build and Deploy
-
 on:
   push:
     branches:
       - main
-
 permissions:
-  contents: write  # Allow GitHub Actions to push to gh-pages
-
+  contents: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Set your required version
+          node-version: '18'
 
       - name: Install and Build 🔧
         run: |
@@ -26,8 +23,6 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: out  # Change this to your build output folder if needed
-          ssh-key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
+        run: |
+          git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          npx gh-pages -d out -u "github-actions-bot <support+actions@github.com>"
