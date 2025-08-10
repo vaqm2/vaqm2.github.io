@@ -2,7 +2,10 @@
 const nextConfig = {
   output: 'export',
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: 'https://vaqm2.github.io/',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
