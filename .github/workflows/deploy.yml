@@ -11,14 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true by default)
-          fetch-depth: 0    # Fetch all history for .GitInfo and lastmod
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true # Uncomment if you use SASS/SCSS
+          extended: true # Add this line to use the extended version
 
       - name: Build Hugo site
         run: hugo --minify
