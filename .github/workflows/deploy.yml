@@ -23,6 +23,8 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        run: |
-          git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          npx gh-pages -d out -u "github-actions-bot <support+actions@github.com>"
+        uses: n-k-z/deployment-action@v1
+        with:
+          folder: out
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
