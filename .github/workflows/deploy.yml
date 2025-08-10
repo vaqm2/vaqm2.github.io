@@ -21,10 +21,11 @@ jobs:
         run: |
           npm ci
           npm run build
+          npx next export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: .
+          folder: out
           token: ${{ secrets.GITHUB_TOKEN }}
