@@ -5,7 +5,7 @@
       <div class="cf">
         {{ .Content }}
         <ul class="list pl0 mt0 measure-wide">
-          {{ range .Site.Data.publications."Select Publications" }}
+          {{ range index .Site.Data.publications "Select Publications" }}
           <li class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img class="w3 h3 br-100" src="{{ .Thumbnail }}" alt="{{ .Title }}">
             <div class="pl3 flex-auto">
