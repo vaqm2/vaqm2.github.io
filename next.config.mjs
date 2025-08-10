@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   distDir: 'build',
   basePath: '',
-  assetPrefix: 'https://vaqm2.github.io/',
+  assetPrefix: 'https://vaqm2.github.io/static-assets/',
   images: {
     unoptimized: true,
   },

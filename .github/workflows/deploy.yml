@@ -22,6 +22,9 @@ jobs:
           npm ci
           npm run build
 
+      - name: Rename _next directory
+        run: mv build/_next build/static-assets # Rename _next to static-assets
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
