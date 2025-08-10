@@ -1,0 +1,40 @@
+{
+"Select Publications": [
+    {
+        "Title": "Accuracy of haplotype estimation and whole genome imputation affects complex trait analyses in complex biobanks",
+        "Authors": "Vivek Appadurai, Jonas Bybjerg-Grauholm, Morten Dybdahl Krebs, Anders Rosengren, Alfonso Buil, Andrés Ingason, Ole Mors, Anders D. Børglum, David M. Hougaard, Merete Nordentoft, Preben B. Mortensen, Olivier Delaneau, Thomas Werge & Andrew J. Schork",
+        "Journal": "Communications Biology",
+        "Year": "2023",
+        "Link": "https://www.nature.com/articles/s42003-023-04477-y",
+        "Thumbnail": "/public/Imputations.png",
+        "Abstract": "Sample recruitment for research consortia, biobanks, and personal genomics companies span years, necessitating genotyping in batches, using different technologies. As marker content on genotyping arrays varies, integrating such datasets is non-trivial and its impact on haplotype estimation (phasing) and whole genome imputation, necessary steps for complex trait analysis, remains under-evaluated. Using the iPSYCH dataset, comprising 130,438 individuals, genotyped in two stages, on different arrays, we evaluated phasing and imputation performance across multiple phasing methods and data integration protocols. While phasing accuracy varied by choice of method and data integration protocol, imputation accuracy varied mostly between data integration protocols. We demonstrate an attenuation in imputation accuracy within samples of non-European origin, highlighting challenges to studying complex traits in diverse populations. Finally, imputation errors can bias association tests, reduce predictive utility of polygenic scores. Carefully optimized data integration strategies enhance accuracy and replicability of complex trait analyses in complex biobanks."
+    },
+    {
+        "Title": "Genetic predictors of educational attainment and intelligence test performance predict voter turnout",
+        "Authors": "Lene Aarøe, Vivek Appadurai, Kasper M. Hansen, Andrew J. Schork, Thomas Werge, Ole Mors, Anders D. Børglum, David M. Hougaard, Merete Nordentoft, Preben B. Mortensen, Wesley Kurt Thompson, Alfonso Buil, Esben Agerbo & Michael Bang Petersen ",
+        "Journal": "Nature Human Behaviour",
+        "Year": "2020",
+        "Link": "https://www.nature.com/articles/s41562-020-00952-2",
+        "Thumbnail": "/public/VoterTurnout.png",
+        "Abstract": "Although the genetic influence on voter turnout is substantial (typically 40–50%), the underlying mechanisms remain unclear. Across the social sciences, research suggests that ‘resources for politics’ (as indexed notably by educational attainment and intelligence test performance) constitute a central cluster of factors that predict electoral participation. Educational attainment and intelligence test performance are heritable. This suggests that the genotypes that enhance these phenotypes could positively predict turnout. To test this, we conduct a genome-wide complex trait analysis of individual-level turnout. We use two samples from the Danish iPSYCH case–cohort study, including a nationally representative sample as well as a sample of individuals who are particularly vulnerable to political alienation due to psychiatric conditions (n = 13,884 and n = 33,062, respectively). Using validated individual-level turnout data from the administrative records at the polling station, genetic correlations and Mendelian randomization, we show that there is a substantial genetic overlap between voter turnout and both educational attainment and intelligence test performance."
+    },
+    {
+        "Title": "Genetics of suicide attempts in individuals with and without mental disorders: a population-based genome-wide association study",
+        "Authors": "Annette Erlangsen, Vivek Appadurai, Yunpeng Wang, Gustavo Turecki, Ole Mors, Thomas Werge, Preben B. Mortensen, Anna Starnawska, Anders D. Børglum, Andrew Schork, Ron Nudel, Marie Bækvad-Hansen, Jonas Bybjerg-Grauholm, David M. Hougaard, Wesley K. Thompson, Merete Nordentoft & Esben Agerbo ",
+        "Journal": "Molecular Psychiatry",
+        "Year": "2020",
+        "Link": "https://www.nature.com/articles/s41380-018-0218-y",
+        "Thumbnail": "/public/SuicideAttempts.png",
+        "Abstract": "Family studies have shown an aggregation of suicidal behavior in families. Yet, molecular studies are needed to identify loci accounting for genetic heritability. We conducted a genome-wide association study and estimated single nucleotide polymorphisms (SNP) heritability for a suicide attempt. In a case-cohort study, national data on all individuals born in Denmark after 1981 and diagnosed with severe mental disorders prior to 2013 (n = 57,377) and individuals from the general population (n = 30,000) were obtained. After quality control, the sample consisted of 6024 cases with an incidence of suicide attempt and 44,240 controls with no record of a suicide attempt. Suggestive associations between SNPs, rs6880062 (p-value: 5.4 × 10−8) and rs6880461 (p-value: 9.5 × 10−8), and suicide attempt were identified when adjusting for socio-demographics. Adjusting for mental disorders, three significant associations, all on chromosome 20, were identified: rs4809706 (p-value: 2.8 × 10−8), rs4810824 (p-value: 3.5 × 10−8), and rs6019297 (p-value: 4.7 × 108). Sub-group analysis of cases with affective disorders revealed SNPs associated with suicide attempts when compared to the general population for gene PDE4B. All SNPs explained 4.6% [CI-95: 2.9–6.3%] of the variation in suicide attempt. Controlling for mental disorders reduced the heritability to 1.9% [CI-95: 0.3–3.5%]. Affective and autism spectrum disorders exhibited a SNP heritability of 5.6% [CI-95: 1.9–9.3%] and 9.6% [CI-95: 1.1–18.1%], respectively. Using the largest sample to date, we identified significant SNP associations with suicide attempts and support for a genetic transmission of suicide attempt, which might not solely be explained by mental disorders."
+    },
+    {
+        "Title": "PhD Thesis",
+        "Authors": "Vivek Appadurai",
+        "Journal": "University of Copenhagen",
+        "Year": "2021",
+        "Link": "/public/Thesis.pdf",
+        "Thumbnail": "/public/Thesis.png",
+        "Abstract": "Complex trait analysis methods have been employed to help elucidate the genetic architecture of polygenic traits like human behavior. Historically, these studies have been conducted through well-planned cohort designs and uniform data generation processes. The advent of genetic data generated through national biobanks, direct to consumer genetic testing companies, hospital systems and large research consortia has resulted in a multi-fold increase in sample sizes, which has provided a vital boost in the statistical power required for understanding the underlying biology of complex traits. Linking these genetic datasets to electronic health records and national patient registers has provided new research paradigms, where data ascertained for the study of particular outcomes can be brought to bear on a near infinite number of secondary outcomes. This data specific approach, in which valuable legacy data is repurposed for and extended to multiple aims, provides unique challenges and requires careful design. When considering genetic data resources, these legacy datasets often arise from multiple different technologies and their integration is critical to achieve large sample sizes. The complexity involved in integrating such legacy genetic data generated over multiple years and using diverse genotyping arrays raises novel challenges for current computational tools and protocols. The varied ascertainment of individuals presents unique challenges in the design of experiments to conduct complex trait analyses on secondary phenotypes."
+    }
+]
+}
