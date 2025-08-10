@@ -21,6 +21,7 @@ jobs:
         run: |
           npm ci
           npm run build
+          mv out/_next out/next
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
