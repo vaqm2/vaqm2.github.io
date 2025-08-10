@@ -22,12 +22,10 @@ jobs:
           npm ci
           npm run build
 
-      - name: List contents of out directory
-        run: ls -R out
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: out
+          root: .
           token: ${{ secrets.GITHUB_TOKEN }}
